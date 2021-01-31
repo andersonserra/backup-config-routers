@@ -10,7 +10,7 @@ for ip in enderecos:
    		'device_type': 'cisco_ios', 
    		'host': ip, 
    		'username': 'admin', 
-   		'password': 'F1e2d3c4b5A6',
+   		'password': 'admin',
    		'port': 22, 
    		}  
 	net_connect = ConnectHandler(**cisco)
